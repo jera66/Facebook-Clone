@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment Link
  
-https://facebook-clone-502b3.web.app/
+`https://incandescent-griffin-adbaae.netlify.app/`
 
 ## Available Scripts
 
