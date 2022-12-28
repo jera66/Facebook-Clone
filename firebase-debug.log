@@ -1,0 +1,41 @@
+[debug] [2022-12-28T17:40:45.954Z] ----------------------------------------------------------------------
+[debug] [2022-12-28T17:40:45.955Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2022-12-28T17:40:45.956Z] CLI Version:   11.19.0
+[debug] [2022-12-28T17:40:45.956Z] Platform:      darwin
+[debug] [2022-12-28T17:40:45.956Z] Node Version:  v16.14.2
+[debug] [2022-12-28T17:40:45.957Z] Time:          Wed Dec 28 2022 12:40:45 GMT-0500 (Eastern Standard Time)
+[debug] [2022-12-28T17:40:45.957Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-28T17:40:46.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-28T17:40:46.030Z] > authorizing via signed-in user (jeratheljean@yahoo.com)
+[debug] [2022-12-28T17:40:46.030Z] [iam] checking project facebook-clone-6d6b1 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-28T17:40:46.032Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-6d6b1:testIamPermissions [none]
+[debug] [2022-12-28T17:40:46.032Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-6d6b1:testIamPermissions x-goog-quota-user=projects/facebook-clone-6d6b1
+[debug] [2022-12-28T17:40:46.032Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-6d6b1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-28T17:40:46.420Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-6d6b1:testIamPermissions 200
+[debug] [2022-12-28T17:40:46.420Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-6d6b1:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-28T17:40:46.421Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-6d6b1 [none]
+[debug] [2022-12-28T17:40:46.863Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-6d6b1 200
+[debug] [2022-12-28T17:40:46.863Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-6d6b1 {"projectId":"facebook-clone-6d6b1","projectNumber":"540089208229","displayName":"facebook-clone","name":"projects/facebook-clone-6d6b1","resources":{"hostingSite":"facebook-clone-6d6b1"},"state":"ACTIVE","etag":"1_c7bd1d2c-8a91-4513-a501-6e0d099aa178"}
+[info] 
+[info] === Deploying to 'facebook-clone-6d6b1'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-12-28T17:40:46.869Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/facebook-clone-6d6b1/versions [none]
+[debug] [2022-12-28T17:40:46.869Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/facebook-clone-6d6b1/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-12-28T17:40:47.578Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/facebook-clone-6d6b1/versions 500
+[debug] [2022-12-28T17:40:47.578Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/facebook-clone-6d6b1/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-12-28T17:40:47.752Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
