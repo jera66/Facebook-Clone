@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment Link
  
-`https://incandescent-griffin-adbaae.netlify.app/`
+https://incandescent-griffin-adbaae.netlify.app/
 
 ## Available Scripts
 
