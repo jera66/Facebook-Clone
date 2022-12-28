@@ -61,7 +61,7 @@ function Navbar() {
             <RightButton>
                 <AccountDetail>
                     <Avatar src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" className={classes.medium}/>
-                    <p>Gaurav</p>
+                    <p>Jerathel</p>
                 </AccountDetail>
                 <OtherIcons>
                     <Apps />

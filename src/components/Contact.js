@@ -1,4 +1,4 @@
-import { Avatar } from '@material-ui/core'
+import { Avatar} from '@material-ui/core'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -6,7 +6,7 @@ function Contact() {
     return (
         <Container>
             <Avatar />
-            <p>Gaurav Konde</p>
+            <p>Jerathel Jean</p>
         </Container>
     )
 }

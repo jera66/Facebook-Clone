@@ -6,8 +6,8 @@ import styled from 'styled-components'
 const data = [
     {
         'id':1,
-        'img':'https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4',
-        'title': 'Gaurav Konde'
+        'img':'https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/321077647_899967248097637_1475678612894723587_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Ien90SL6ij0AX9TICHR&_nc_ht=scontent-bos5-1.xx&oh=00_AfBbCpGYcrstPnlvWiBrXaJIc2w7A57jeiql7qH-TvcqOg&oe=63B11C6D',
+        'title': 'Jerathel Jean'
     },
     {
         'id':2,

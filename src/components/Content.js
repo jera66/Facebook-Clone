@@ -10,7 +10,7 @@ function Content() {
                 <Profile>
                     <Avatar />
                     <Title>
-                        <h4>Gaurav Konde</h4>
+                        <h4>Jerathel Jean</h4>
                         <p>3d </p>
                     </Title>
                 </Profile>
@@ -18,11 +18,11 @@ function Content() {
             </Header>
             <Text>
                 <div>
-                The all New Apple Macbook Pro M1 chip is Here Guys
+                Quote of the day.
                 </div>
             </Text>
             <Image>
-                <img src="https://sb.nhattao.com/2018/12/11694856_macbook-pro-retina-15-inch-early-2015.jpg" alt="" />
+                <img src="https://blog.hubspot.com/hs-fs/hubfs/maya-angelou-famous-quote.png?width=650&name=maya-angelou-famous-quote.png" alt="" />
             </Image>
             <EmojiCount>
                 <EmojiList>
